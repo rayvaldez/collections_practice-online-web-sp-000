@@ -30,8 +30,8 @@ def find_a(array)
   array.select { |a| a.start_with? "a"}
 end
 
-def sum_array
-
+def sum_array(array)
+  binding.pry
 end
 
 def add_s(array)
