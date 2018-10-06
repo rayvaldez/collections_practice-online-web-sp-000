@@ -7,7 +7,7 @@ end
 def sort_array_desc(array)
   sorted_array = []
   array.sort do |a,b|
-    if a > b << sorted_array
+    if a > b << sorted_array.to_i
     end
   end
 end
