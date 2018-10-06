@@ -23,6 +23,7 @@ end
 def kesha_maker(array)
   array.each do |replace|
     binding.pry
+  end
 end
 
 def find_a(array)
