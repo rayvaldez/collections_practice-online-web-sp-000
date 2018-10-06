@@ -40,5 +40,6 @@ def add_s(array)
       add
     else
       add << "s"
+    end
   end
 end
