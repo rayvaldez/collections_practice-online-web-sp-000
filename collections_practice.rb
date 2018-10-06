@@ -6,7 +6,7 @@ end
 
 def sort_array_desc(array)
   sorted_array = []
-  array.each do |a, b|
+  array.each do |sort|
     binding.pry
     if a > b << sorted_array
     end
