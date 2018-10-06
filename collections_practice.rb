@@ -36,6 +36,6 @@ end
 
 def add_s(array)
   array.each do |add|
-    add + "s"
+    add.to_s + "s"
   end
 end
