@@ -7,8 +7,7 @@ end
 def sort_array_desc(array)
   sorted_array = []
   array.sort do |a,b|
-    binding.pry
-    if a > b 
+    if a > b << sorted_array
     end
   end
 end
