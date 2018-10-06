@@ -22,7 +22,7 @@ end
 
 def kesha_maker(array)
   array.each do |replace|
-    replace[3] = "$"
+    replace[2] = "$"
   end
 end
 
