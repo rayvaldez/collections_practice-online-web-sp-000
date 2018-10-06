@@ -36,6 +36,6 @@ end
 
 def add_s(array)
   array.each do |add|
-    add << "s" unless add = "feet"
+    add << "s" unless add == "feet"
   end
 end
