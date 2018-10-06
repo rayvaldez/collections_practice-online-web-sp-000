@@ -21,7 +21,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  binding.pry
+  array.each do |replace|
+    binding.pry
 end
 
 def find_a(array)
