@@ -36,6 +36,9 @@ end
 
 def add_s(array)
   array.each do |add|
-    add << "s"
+    if add = feet
+      add
+    else
+      add << "s"
   end
 end
