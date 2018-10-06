@@ -9,7 +9,8 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  binding.pry
+  array.sort do |sorted|
+    binding.pry
 end
 
 def swap_elements(array)
