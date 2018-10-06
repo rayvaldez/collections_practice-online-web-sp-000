@@ -5,7 +5,11 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  !!array.sort
+  sorted_array = []
+  array.each do |a, b|
+    if a > b << sorted_array
+    end
+  end
 end
 
 def sort_array_char_count(array)
